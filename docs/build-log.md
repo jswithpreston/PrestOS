@@ -58,3 +58,19 @@ Successfully entered PrestOS chroot environment.
 - GCC 15 + LFS glibc required MB_LEN_MAX header patch
 - ftp.gnu.org blocked by ISP — used mirrors.kernel.org
 - libpcre2 copied from host for grep support
+
+## Phase 3 — Main System Build (In Progress)
+Building final system packages inside PrestOS chroot.
+
+### Completed
+- Man-pages 6.15
+- Iana-etc
+- Glibc 2.42 final
+- Zlib, Bzip2, Xz, Lz4, Zstd
+- Locales + timezone (Africa/Kampala)
+- Bc, Flex, Tcl, Expect, DejaGnu
+- Binutils 2.45 final
+- GCC 15.2.0 final — permanent PrestOS compiler ✓
+
+### Verified
+- gcc (GCC) 15.2.0 compiles and links correctly inside chroot

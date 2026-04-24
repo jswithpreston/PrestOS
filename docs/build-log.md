@@ -13,3 +13,48 @@ Built on Fedora host using LFS 12.4 methodology.
 ### Verification
 - Cross compiler target: x86_64-lfs-linux-gnu
 - Glibc program interpreter: /lib64/ld-linux-x86-64.so.2 ✓
+
+## Phase 2 — Chroot & Temporary Tools (Complete)
+Successfully entered PrestOS chroot environment.
+
+### Completed
+- Directory structure created
+- Essential system files (passwd, group, hosts, mtab)
+- Gettext, Bison 3.8.2, Perl 5.42, Python 3.13.7
+- GCC compiler working inside chroot
+- All binutils tools in place
+
+### Notes
+- GCC 15 + LFS glibc required MB_LEN_MAX header patch
+- ftp.gnu.org blocked by ISP — used mirrors.kernel.org
+- libpcre2 copied from host for grep support
+
+## Phase 2 — Chroot & Temporary Tools (Complete)
+Successfully entered PrestOS chroot environment.
+
+### Completed
+- Directory structure created
+- Essential system files (passwd, group, hosts, mtab)
+- Gettext, Bison 3.8.2, Perl 5.42, Python 3.13.7
+- GCC compiler working inside chroot
+- All binutils tools in place
+
+### Notes
+- GCC 15 + LFS glibc required MB_LEN_MAX header patch
+- ftp.gnu.org blocked by ISP — used mirrors.kernel.org
+- libpcre2 copied from host for grep support
+
+## Phase 2 — Chroot & Temporary Tools (Complete)
+Successfully entered PrestOS chroot environment.
+
+### Completed
+- Directory structure created
+- Essential system files (passwd, group, hosts, mtab)
+- Gettext, Bison 3.8.2, Perl 5.42, Python 3.13.7
+- GCC compiler working inside chroot
+- All binutils tools in place
+
+### Notes
+- GCC 15 + LFS glibc required MB_LEN_MAX header patch
+- ftp.gnu.org blocked by ISP — used mirrors.kernel.org
+- libpcre2 copied from host for grep support

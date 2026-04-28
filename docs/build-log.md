@@ -74,3 +74,11 @@ Building final system packages inside PrestOS chroot.
 
 ### Verified
 - gcc (GCC) 15.2.0 compiles and links correctly inside chroot
+
+## Phase 3 Continued — Major packages installed
+- Util-linux 2.41.1 (libmount, libblkid)
+- E2fsprogs 1.47.3
+- Libcap 2.76
+- Libxcrypt 4.4.38
+- OpenSSL 3.5.2
+- Systemd 257.8 ✓ (required -Wl,-rpath-link fix)

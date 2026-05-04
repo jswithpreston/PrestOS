@@ -82,4 +82,4 @@ developers. Built to run efficiently on 4GB RAM with an 8GB sweet spot.
 
 ## Built by
 
-Preston — Junior Developer, Uganda
+Preston — Developer, Uganda
